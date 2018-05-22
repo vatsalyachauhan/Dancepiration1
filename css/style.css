@@ -60,11 +60,11 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:793px;
+	min-height:-webkit-fill-available;
 }
 .w3l-overlay {
     background: url(../images/overlay.png)repeat;
-    min-height: 793px;
+    min-height: -webkit-fill-available;
 }
 .banner-2{
 	background:url(../images/bg2.jpg) no-repeat center fixed;
@@ -73,7 +73,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:730px;
+	min-height:-webkit-fill-available;
 }
 .banner-3{
 	background:url(../images/bg1.jpg) no-repeat center fixed;
@@ -82,7 +82,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:860px;
+	min-height:-webkit-fill-available;
 }
 .banner-4{
 	background:url(../images/bg3.jpg) no-repeat center fixed;
@@ -91,7 +91,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:930px;
+	min-height:-webkit-fill-available;
 }
 .banner-5{
 	background:url(../images/bg4.jpg) no-repeat center fixed;
@@ -100,7 +100,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:900px;
+	min-height:-webkit-fill-available;
 }
 .banner-6{
 	background:url(../images/bg5.jpg) no-repeat center fixed;
@@ -109,7 +109,7 @@ label{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:900px;
+	min-height:-webkit-fill-available;
 }
 h1 a.w3l-logo {
     font-size: 1.3em;
@@ -1017,7 +1017,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		margin: 11em auto 0;
 	}
 	.banner, .w3l-overlay {
-		min-height: 700px;
+		min-height: -webkit-fill-available;
 	}
 }
 @media(max-width: 1366px){
@@ -1036,7 +1036,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		padding-top: 1em !important;
 	}
 	.banner, .w3l-overlay {
-		min-height: 660px;
+		min-height: -webkit-fill-available;
 	}
 	section.about-w3l, .classes-w3l, .team-agileinfo, #gallery, .mail {
 		padding: 2em 0 3em;
@@ -1066,7 +1066,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		margin: 1em 0 4em;
 	}
 	.banner, .w3l-overlay {
-		min-height: 620px;
+		min-height: -webkit-fill-available;
 	}
 	p.w3l-img-right {
 		font-size: 1.8em !important;
@@ -1133,7 +1133,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		font-size: 3em;
 	}
 	.banner, .w3l-overlay {
-		min-height: 610px;
+		min-height: -webkit-fill-available;
 	}
 }
 @media(max-width: 991px){
@@ -1150,7 +1150,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		letter-spacing: 2px;
 	}
 	.banner, .w3l-overlay {
-		min-height: 590px;
+		min-height: -webkit-fill-available;
 	}
 	.m_nav_item a {
 		padding: 10px 18px;
@@ -1230,7 +1230,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 }
 @media(max-width: 768px){
 	.banner, .w3l-overlay {
-		min-height: 865px;
+		min-height: -webkit-fill-available;
 	}
 	.w3l_banner_info {
 		margin: 17em auto 0;
@@ -1257,7 +1257,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		font-size: 1.7em !important;
 	}
 	.banner, .w3l-overlay {
-		min-height: 536px;
+		min-height: -webkit-fill-available;
 	}
 	.wthree_banner_info_grid h6, .wthree_banner_info_grid h2 {
 		font-size: 3.8em;
@@ -1531,7 +1531,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		font-size: 1em;
 	}
 	.banner, .w3l-overlay {
-		min-height: 612px;
+		min-height: -webkit-fill-available;
 	}
 	.wthree_banner_info_grid h6, .wthree_banner_info_grid h2 {
 		font-size: 3em;
@@ -1609,7 +1609,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 }
 @media(max-width: 384px){
 	.banner, .w3l-overlay {
-		min-height: 515px;
+		min-height: -webkit-fill-available;
 	}
 	.w3l_banner_info h3 {
 		font-size: 1.5em;
@@ -1692,7 +1692,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 		padding: 1em 0;
 	}
 	.banner, .w3l-overlay {
-		min-height: 425px;
+		min-height: -webkit-fill-available;
 	}
 	p.w3l-img-right {
 		padding-top: 1em !important;
