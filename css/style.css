@@ -977,7 +977,7 @@ h2.resp-accordion {
 }
 /*-- //mail --*/
 .w3layouts_copy_right {
-    padding: 1.2em 0;
+    padding: .1em 0;
     text-align: center;	
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e57e9e+0,e85a89+47,e91e63+100 */
 background: rgb(229,126,158); /* Old browsers */
@@ -989,7 +989,7 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
     color: #fff;
     font-weight: 600;
     letter-spacing: 2px;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 .w3layouts_copy_right p a{
 	color:#fff;
@@ -998,7 +998,6 @@ background: linear-gradient(45deg, rgba(229,126,158,1) 0%,rgba(232,90,137,1) 47%
 .w3layouts_copy_right p a:hover{
 	color:#000;
 }
-
 
 /*--responsive--*/
 
